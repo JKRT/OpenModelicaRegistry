@@ -4,3 +4,4 @@ repo = "https://github.com/JKRT/OpenModelicaRegistry.git"
 description = "A Julia registry for OpenModelica tooling."
 
 [packages]
+0174eeea-c361-11e9-3d0d-a9ca8048aff6 = { name = "DAE", path = "D/DAE" }
