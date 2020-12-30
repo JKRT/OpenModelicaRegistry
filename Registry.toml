@@ -5,4 +5,5 @@ description = "A Julia registry for OpenModelica tooling."
 
 [packages]
 0174eeea-c361-11e9-3d0d-a9ca8048aff6 = { name = "DAE", path = "D/DAE" }
+350d45b0-c210-11e9-3b9e-fdad65bb3d46 = { name = "SCode", path = "S/SCode" }
 ce2f92e2-a952-11e9-0543-8b443f216f1d = { name = "Absyn", path = "A/Absyn" }
