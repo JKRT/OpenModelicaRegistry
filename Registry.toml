@@ -8,7 +8,6 @@ description = "A Julia registry for OpenModelica tooling."
 350d45b0-c210-11e9-3b9e-fdad65bb3d46 = { name = "SCode", path = "S/SCode" }
 4a558cac-c1ed-11e9-20da-3584bcd8709a = { name = "ImmutableList", path = "I/ImmutableList" }
 53cd29f2-c28d-11e9-1567-bd5452eeb1a0 = { name = "ArrayUtil", path = "A/ArrayUtil" }
-864edb3b-99cc-5e75-8d2d-829cb0a9cfe8 = { name = "DataStructures", path = "D/DataStructures" }
 9d7f2a79-07b5-5542-8b19-c0100dda6b06 = { name = "MetaModelica", path = "M/MetaModelica" }
 b2a72b7e-c1ef-11e9-3a87-6ddc5900c366 = { name = "ListUtil", path = "L/ListUtil" }
 ce2f92e2-a952-11e9-0543-8b443f216f1d = { name = "Absyn", path = "A/Absyn" }
