@@ -28,3 +28,23 @@ branch = "master"
 name   = "MetaModelica"
 repo   = "https://github.com/OpenModelica/MetaModelica.jl.git"
 branch = "master"
+
+[[package]]
+name   = "SCode"
+repo   = "https://github.com/OpenModelica/SCode.jl.git"
+branch = "master"
+
+[[package]]
+name   = "DAE"
+repo   = "https://github.com/OpenModelica/DAE.jl.git"
+branch = "master"
+
+[[package]]
+name   = "DoubleEnded"
+repo   = "https://github.com/OpenModelica/DoubleEnded.jl.git"
+branch = "master"
+
+[[package]]
+name   = "ArrayUtil"
+repo   = "https://github.com/OpenModelica/ArrayUtil.jl.git"
+branch = "master"
