@@ -49,8 +49,13 @@ name   = "ArrayUtil"
 repo   = "https://github.com/OpenModelica/ArrayUtil.jl.git"
 branch = "master"
 
+[[package]]
+name   = "OMFrontend"
+repo   = "https://github.com/OpenModelica/OMFrontend.jl.git"
+branch = "master"
+
 # The OM.jl 1.13 release (2026-10-02): the rest of the lockstep packages.
-# OMBackend dropped its [sources] block for this.
+# OMBackend dropped its [sources] block for this (OpenModelica/OMBackend.jl#79).
 [[package]]
 name   = "Absyn"
 repo   = "https://github.com/OpenModelica/Absyn.jl.git"
@@ -59,11 +64,6 @@ branch = "master"
 [[package]]
 name   = "ListUtil"
 repo   = "https://github.com/OpenModelica/ListUtil.jl.git"
-branch = "master"
-
-[[package]]
-name   = "OMFrontend"
-repo   = "https://github.com/OpenModelica/OMFrontend.jl.git"
 branch = "master"
 
 [[package]]
