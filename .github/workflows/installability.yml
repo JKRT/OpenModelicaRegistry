@@ -1,7 +1,7 @@
 name: Package installability
 
 # Installs each core OpenModelica package FROM THE REGISTRY (no Pkg.develop) on a
-# clean depot and precompiles it on Julia 1.12. This reproduces what a fresh user
+# clean depot and precompiles it on Julia 1.13. This reproduces what a fresh user
 # or demo machine does, so a stale/broken registered version fails CI instead of
 # a demo. On a pull_request the checked-out registry includes the proposed change,
 # so new registrations are validated before merge.
@@ -47,6 +47,10 @@ jobs:
     steps:
       - name: Checkout registry (this PR's state)
         uses: actions/checkout@v4
+        with:
+          # the whole history: Pkg clones this checkout as a registry, and a
+          # shallow pull_request merge commit lacks its parents (object not found)
+          fetch-depth: 0
 
       - uses: julia-actions/setup-julia@v2
         with:
