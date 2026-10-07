@@ -47,10 +47,11 @@ jobs:
     steps:
       - name: Checkout registry (this PR's state)
         uses: actions/checkout@v4
-        with:
-          # the whole history: Pkg clones this checkout as a registry, and a
-          # shallow pull_request merge commit lacks its parents (object not found)
-          fetch-depth: 0
+
+      # Pkg clones this checkout as a registry; a clone carries what branches reach,
+      # and a pull_request checkout is a detached merge commit (object not found)
+      - name: Put the checked-out state on a branch
+        run: git checkout -B registry-under-test
 
       - uses: julia-actions/setup-julia@v2
         with:
